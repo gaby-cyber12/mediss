@@ -1,0 +1,33 @@
+[00:57:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[00:57:48] [ServerMain/WARN]: Missing data pack fabric
+[00:57:48] [ServerMain/WARN]: Missing data pack dynamiclights
+[00:57:48] [ServerMain/WARN]: Missing data pack fabric-convention-tags-v2
+[00:57:48] [ServerMain/WARN]: Missing data pack malilib
+[00:57:50] [ServerMain/INFO]: Loaded 1461 recipes
+[00:57:50] [ServerMain/INFO]: Loaded 1574 advancements
+[00:57:50] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[00:57:50] [Server thread/INFO]: Loading properties
+[00:57:50] [Server thread/INFO]: Default game type: SURVIVAL
+[00:57:50] [Server thread/INFO]: Generating keypair
+[00:57:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:57:50] [Server thread/INFO]: Using epoll channel type
+[00:57:50] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[00:57:50] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[00:57:50] [Server thread/WARN]: Perhaps a server is already running on that port?
+[00:57:50] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.C(SourceFile:797) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:297) ~[server-1.21.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[00:57:50] [Server thread/ERROR]: This crash report has been saved to: /workspaces/mediss/servidor_minecraft/crash-reports/crash-2025-12-12_00.57.50-server.txt
+[00:57:50] [Server thread/INFO]: Stopping server
+[00:57:50] [Server thread/INFO]: Saving worlds
+[00:57:50] [Server thread/ERROR]: Exception stopping the server
+java.lang.NullPointerException: Cannot invoke "bbd.r()" because the return value of "net.minecraft.server.MinecraftServer.am()" is null
+	at net.minecraft.server.MinecraftServer.a(SourceFile:634) ~[server-1.21.10.jar:?]
+	at aro.a(SourceFile:340) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.z(SourceFile:693) ~[server-1.21.10.jar:?]
+	at aro.z(SourceFile:734) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.C(SourceFile:816) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:297) ~[server-1.21.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
